@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Extension",
+    "version": "1.0.0",
+    "description": "My first browser extension",
+    "action": {
+        "default_popup": "html/index.html"
+    },
+    "background": {
+        "scripts": ["background/index.js"]
+    }
+}
